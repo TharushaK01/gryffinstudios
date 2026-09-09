@@ -110,7 +110,7 @@ export default function Footer() {
                   <ul className="space-y-3 text-zinc-400 uppercase tracking-wider">
                     <li>
                       <Link
-                        href="/terms"
+                        href="/#"
                         className="hover:text-cyan-400 transition-colors"
                       >
                         TERMS
@@ -118,7 +118,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link
-                        href="/office"
+                        href="/#"
                         className="hover:text-cyan-400 transition-colors"
                       >
                         OFFICE

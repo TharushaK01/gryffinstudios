@@ -20,6 +20,11 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Gryffin Studio | Design & Development",
   description: "Aesthetic design & specialized software engineering studio.",
+  metadataBase: new URL("gryffinstudios.vercel.app"),
+
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

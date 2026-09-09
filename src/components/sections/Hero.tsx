@@ -308,7 +308,7 @@ export default function Hero() {
                   <div className="relative h-24 w-[1500px] shrink-0">
                     <Image
                       src="/client-logos.svg"
-                      alt="Client Logos"
+                      alt="Logos of trusted partner companies including Brand A, Brand B, and Brand C"
                       fill
                       className="object-contain filter brightness-200 contrast-200"
                     />
