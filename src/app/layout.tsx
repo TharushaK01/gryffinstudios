@@ -20,7 +20,9 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Gryffin Studio | Design & Development",
   description: "Aesthetic design & specialized software engineering studio.",
-  metadataBase: new URL("gryffinstudios.vercel.app"),
+
+  // Added "https://" protocol
+  metadataBase: new URL("https://gryffinstudios.vercel.app"),
 
   alternates: {
     canonical: "/",
