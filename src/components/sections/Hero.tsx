@@ -663,12 +663,12 @@ export default function Hero() {
             </div>
 
             {/* Banner Heading */}
-            <h2 className="relative z-10 font-mono text-3xl sm:text-5xl md:text-6xl font-regular uppercase tracking-widest text-white">
+            <h3 className="relative z-10 font-mono text-3xl sm:text-5xl md:text-[42px] font-regular uppercase tracking-widest text-white">
               OUR{" "}
               <span className="text-cyan-400 drop-shadow-[0_0_15px_rgba(0,240,255,0.4)]">
                 PLANS
               </span>
-            </h2>
+            </h3>
           </div>
         </div>
 

@@ -44,11 +44,12 @@ export default function Footer() {
                     alt="Gryffin Studios"
                     width={160}
                     height={32}
+                    priority // Injects fetchpriority="high" and preloads the image
                     className="h-8 w-auto"
                   />
                 </div>
 
-                <p className="font-mono text-xs sm:text-sm text-zinc-300 tracking-widest uppercase leading-relaxed max-w-[280px]">
+                <p className="font-mono text-xs sm:text-sm text-zinc-300 tracking-widest uppercase leading-relaxed max-w-[350px]">
                   WE ARE AN AGENCY WITH 5+ YEARS OF
                   <br />
                   EXPERIENCE THAT HAS HELPED MORE
