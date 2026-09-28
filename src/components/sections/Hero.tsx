@@ -6,12 +6,12 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const projects = [
-  { name: "LEAF", href: "#" },
-  { name: "BOILING PROXIES", href: "#" },
-  { name: "KESS CARE", href: "#" },
-  { name: "SEASHORE GARDEN", href: "#" },
-  { name: "PROXIFY", href: "#" },
-  { name: "PREMADASA HOLDINGS", href: "#" },
+  { name: "Coconut Sri Lanka", href: "https://coconutsrilanka.com/" },
+  { name: "DKW Plastics", href: "https://dkwplastics.com/" },
+  { name: "ASCM", href: "https://ascm.lk/" },
+  { name: "Boilling Proxies", href: "https://boilingproxies.com/" },
+  { name: "Shieldscraper", href: "https://shieldscraper.com/" },
+  { name: "Tikiri Toys", href: "https://tikiritoys.com/" },
 ];
 
 interface FeatureItem {
@@ -24,32 +24,20 @@ const features: FeatureItem[] = [
   {
     titleWhite: "ORGANIZED",
     titleCyan: "REQUESTS",
-    description: "Unlimited revisions",
+    description:
+      "Manage all your design and development tasks in one place, clearly and efficiently.",
   },
   {
     titleWhite: "FLAT",
     titleCyan: "MONTHLY FEE",
-    description: "Pause or cancel anytime",
+    description:
+      "One predictable price with no hidden costs.scale up or down anytime.",
   },
   {
     titleWhite: "HIGH QUALITY",
     titleCyan: "RESULTS",
-    description: "Slack Support",
-  },
-  {
-    titleWhite: "FLAT",
-    titleCyan: "MONTHLY FEE",
-    description: "Tailored service mix and delivery flow",
-  },
-  {
-    titleWhite: "HIGH QUALITY",
-    titleCyan: "RESULTS",
-    description: "Flexible number of active requests",
-  },
-  {
-    titleWhite: "HIGH QUALITY",
-    titleCyan: "RESULTS",
-    description: "Delivery timelines based on project scope",
+    description:
+      "Most requests delivered in 2–5 days, crafted to perform and impress.",
   },
 ];
 

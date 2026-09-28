@@ -50,13 +50,8 @@ export default function Footer() {
                 </div>
 
                 <p className="font-mono text-xs sm:text-sm text-zinc-300 tracking-widest uppercase leading-relaxed max-w-[350px]">
-                  WE ARE AN AGENCY WITH 5+ YEARS OF
-                  <br />
-                  EXPERIENCE THAT HAS HELPED MORE
-                  <br />
-                  THAN 5K+ PROJECT FROM SMALL TO
-                  <br />
-                  LARGE PROJECTS.
+                  WE ARE AN AGENCY WITH 5+ YEARS OF EXPERIENCE THAT HAS HELPED
+                  MORE THAN 5K+ PROJECT FROM SMALL TO LARGE PROJECTS.
                 </p>
               </div>
 
@@ -183,7 +178,7 @@ export default function Footer() {
 
         {/* Copyright bar – outside the main frame */}
         <div className="mt-10 md:mt-16 flex flex-col sm:flex-row justify-between items-start sm:items-center font-mono text-[11px] sm:text-xs tracking-[0.2em] uppercase text-zinc-400 gap-3 px-1">
-          <div>*GRYFFIN STUDIOS</div>
+          <div>©GRYFFIN STUDIOS</div>
           <div>ALL RIGHTS RESERVED</div>
         </div>
       </div>
