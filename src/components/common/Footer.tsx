@@ -44,18 +44,14 @@ export default function Footer() {
                     alt="Gryffin Studios"
                     width={160}
                     height={32}
+                    priority
                     className="h-8 w-auto"
                   />
                 </div>
 
-                <p className="font-mono text-xs sm:text-sm text-zinc-300 tracking-widest uppercase leading-relaxed max-w-[280px]">
-                  WE ARE AN AGENCY WITH 5+ YEARS OF
-                  <br />
-                  EXPERIENCE THAT HAS HELPED MORE
-                  <br />
-                  THAN 5K+ PROJECT FROM SMALL TO
-                  <br />
-                  LARGE PROJECTS.
+                <p className="font-mono text-xs sm:text-sm text-zinc-300 tracking-widest uppercase leading-relaxed max-w-[350px]">
+                  WE ARE AN AGENCY WITH 5+ YEARS OF EXPERIENCE THAT HAS HELPED
+                  MORE THAN 5K+ PROJECT FROM SMALL TO LARGE PROJECTS.
                 </p>
               </div>
 
@@ -63,7 +59,7 @@ export default function Footer() {
               <div className="md:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-8 font-mono text-xs sm:text-sm">
                 {/* HOME */}
                 <div>
-                  <h4 className="text-zinc-200 uppercase tracking-[0.2em] font-medium mb-5">
+                  <h4 className="inline-block uppercase tracking-[0.2em] font-medium mb-5 bg-gradient-to-r from-white to-[#7dd3fc] bg-clip-text text-transparent">
                     HOME
                   </h4>
                   <ul className="space-y-3 text-zinc-400 uppercase tracking-wider">
@@ -104,7 +100,7 @@ export default function Footer() {
 
                 {/* PRIVACY */}
                 <div>
-                  <h4 className="text-zinc-200 uppercase tracking-[0.2em] font-medium mb-5">
+                  <h4 className="inline-block uppercase tracking-[0.2em] font-medium mb-5 bg-gradient-to-r from-white to-[#7dd3fc] bg-clip-text text-transparent">
                     PRIVACY
                   </h4>
                   <ul className="space-y-3 text-zinc-400 uppercase tracking-wider">
@@ -129,7 +125,7 @@ export default function Footer() {
 
                 {/* SOCIAL MEDIA */}
                 <div>
-                  <h4 className="text-cyan-400 uppercase tracking-[0.2em] font-medium mb-5">
+                  <h4 className="inline-block uppercase tracking-[0.2em] font-medium mb-5 bg-gradient-to-r from-white to-[#7dd3fc] bg-clip-text text-transparent">
                     SOCIAL MEDIA
                   </h4>
                   <ul className="space-y-3 text-zinc-400 uppercase tracking-wider">
@@ -182,7 +178,7 @@ export default function Footer() {
 
         {/* Copyright bar – outside the main frame */}
         <div className="mt-10 md:mt-16 flex flex-col sm:flex-row justify-between items-start sm:items-center font-mono text-[11px] sm:text-xs tracking-[0.2em] uppercase text-zinc-400 gap-3 px-1">
-          <div>*GRYFFIN STUDIOS</div>
+          <div>©GRYFFIN STUDIOS</div>
           <div>ALL RIGHTS RESERVED</div>
         </div>
       </div>
