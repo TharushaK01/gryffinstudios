@@ -9,6 +9,7 @@ const projects = [
   { name: "Coconut Sri Lanka", href: "https://coconutsrilanka.com/" },
   { name: "DKW Plastics", href: "https://dkwplastics.com/" },
   { name: "ASCM", href: "https://ascm.lk/" },
+  { name: "Eyonic.ai", href: "https://eyonic.ai/" },
   { name: "Boilling Proxies", href: "https://boilingproxies.com/" },
   { name: "Shieldscraper", href: "https://shieldscraper.com/" },
   { name: "Tikiri Toys", href: "https://tikiritoys.com/" },
